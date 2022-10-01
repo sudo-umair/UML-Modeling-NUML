@@ -1,0 +1,8 @@
+{
+  "attendance" : "mark(bool), st_id(int), c_id(int)",
+  "courses" : "c_id(int), c_name(string), instructor(string), max_students(int)",
+  "instructor" : "ins_id(int), ins_name(string), email(string), psw(string)",
+  "login" : "email(varchar), psw(varchar)",
+  "online_class" : "class_id(int), link(string), psw(string), c_id(string)",
+  "students" : "st_id(int), st_name(string), email(string), sys_id(varchar), psw(string)"
+}
